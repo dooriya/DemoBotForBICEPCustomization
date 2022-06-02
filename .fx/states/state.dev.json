@@ -1,0 +1,36 @@
+{
+    "solution": {
+        "teamsAppTenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "subscriptionId": "1756abc0-3554-4341-8d6a-46674962ea19",
+        "subscriptionName": "Teams Cloud - Dev Test with TTL = 3 Days",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "dol_demo_bot_0602-dev-rg",
+        "location": "East Asia",
+        "resourceNameSuffix": "c6b782",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "teamsAppId": "abcbdd44-6850-48c8-ba3b-53ce1ad7a455",
+        "teamsAppUpdatedAt": 1654150838705
+    },
+    "fx-resource-identity": {
+        "identityName": "doldemobotdevb0ff26",
+        "identityResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/dol_demo_bot_0602-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/doldemobotdevb0ff26",
+        "identityClientId": "3900f3bf-6d8c-4fdc-acce-32ab9d3c3bcb"
+    },
+    "fx-resource-bot": {
+        "botId": "13ced3f4-67f0-495a-98f7-1ef127b17c5b",
+        "botPassword": "{{fx-resource-bot.botPassword}}",
+        "objectId": "29aace98-a65e-45a9-ac6b-dac8e6e7bbd2",
+        "skuName": "B1",
+        "siteName": "commandbotdev688f50bot",
+        "validDomain": "commandbotdev688f50bot.azurewebsites.net",
+        "appServicePlanName": "doldemobotdevb0ff26bot",
+        "botWebAppResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/command_bot_0602-dev-rg/providers/Microsoft.Web/sites/commandbotdev688f50bot",
+        "siteEndpoint": "https://commandbotdev688f50bot.azurewebsites.net"
+    },
+    "fx-resource-cicd": {},
+    "fx-resource-api-connector": {}
+}

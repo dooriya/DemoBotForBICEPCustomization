@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "provisionParameters": {
+      "value": {
+        "resourceBaseName": "doldemobotdevb0ff26",
+        "botAadAppClientId": "{{state.fx-resource-bot.botId}}",
+        "botAadAppClientSecret": "{{state.fx-resource-bot.botPassword}}",
+        "botSitesName": "commandbotdev688f50bot",
+        "botAppSubscription": "1756abc0-3554-4341-8d6a-46674962ea19",
+        "botAppResourceGroup": "command_bot_0602-dev-rg"
+      }
+    }
+  }
+}
